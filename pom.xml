@@ -38,6 +38,7 @@
                         <configuration>
                             <artifactSet>
                                 <includes>
+                                    <!-- include the implementation of decompiler. probably should be done differently, but I don't know how, so let's have semi-fat jar -->
                                     <include>org.jboss.*:*</include>
                                     <include>org.jetbrains.*:*</include>
                                 </includes>
