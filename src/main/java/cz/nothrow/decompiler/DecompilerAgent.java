@@ -65,6 +65,8 @@ public class DecompilerAgent {
                     System.err.println("Failed to decompile bytecode for " + className);
                     e.printStackTrace();
                 }
+
+                System.out.println("Decompiled class " + className);
             }
 
             return classfileBuffer;  // Return the unmodified class bytes
